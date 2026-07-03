@@ -2,7 +2,7 @@
 
 An advanced, responsive, and modern Admin Dashboard built with cutting-edge web technologies to provide data visualization, user management, and seamless control over application data.
 
-[🌐 Live Demo](admin-dashboard-beta-self-17.vercel.app)
+[🌐 Live Demo](https://admin-dashboard-beta-self-17.vercel.app/)
 
 ## 🚀 Tech Stack
 
