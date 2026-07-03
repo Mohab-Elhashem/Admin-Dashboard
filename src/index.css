@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* دة علشان اخلي الصفحة تحس بتغير المود */
+@variant dark (&:where(.dark, .dark *)); 
+
+
+/* @theme{
+    --color-text: var(--text-main);
+}
+:root{
+    --text-main: #1d293d;
+}
+html.dark {
+    --text-main: #fff;
+} */
