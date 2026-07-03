@@ -1,3 +1,30 @@
+# 📊 Admin Dashboard Project
+
+An advanced, responsive, and modern Admin Dashboard built with cutting-edge web technologies to provide data visualization, user management, and seamless control over application data.
+
+[🌐 Live Demo]()
+
+## 🚀 Tech Stack
+
+- **Framework:** React (powered by Vite for ultra-fast bundling)
+- **Language:** TypeScript (for type safety and robust code)
+- **Styling:** Tailwind CSS (for modern, responsive, and utility-first styling)
+- **Icons:** [e.g., Lucide React ]
+- **Charts:** [e.g., Recharts]
+
+  ## ✨ Features
+
+- **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop screens.
+- **Dark/Light Mode:** Toggle between themes for better user experience.
+- **Data Analytics:** charts and statistics.
+- **Secure & Fast:** Built with clean TypeScript architecture and Vite optimization.
+
+* ## 📸 Preview
+
+![Project Preview](./preview.png)
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
