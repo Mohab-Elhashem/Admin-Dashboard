@@ -4,7 +4,7 @@ import { RevenueData } from "../../shared/RevenueData";
 
 const RevenueChart: React.FC = () => {
     return (
-        <div className="w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl rounded-2xl border border-slate-200/50 dark:border-slate-700/50 p-6">
+        <div className="w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl rounded-2xl border border-slate-200/50 dark:border-slate-700/50 p-6 overflow-hidden">
 
             {/* رأس المخطط والدوائر التوضيحية */}
             <div className="flex items-center justify-between mb-6">
@@ -13,7 +13,7 @@ const RevenueChart: React.FC = () => {
                     <p className="text-sm text-slate-500 dark:text-slate-400">Monthly revenue and expenses</p>
                 </div>
 
-                <div className="flex items-center gap-x-4">
+                <div className="sm:flex items-center gap-x-4">
                     <div className="flex items-center gap-x-2">
                         <div className="w-3 h-3 bg-linear-to-r from-blue-400 to-purple-500 rounded-full"></div>
                         <span className="text-sm text-slate-600 dark:text-slate-400">Revenue</span>
