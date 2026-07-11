@@ -1,4 +1,3 @@
-// 1. تحديد الحالات المسموح بها فقط
 type OrderStatus = "completed" | "pending" | "cancelled" | string;
 
 export const getStatusColor = (status: OrderStatus): string => {

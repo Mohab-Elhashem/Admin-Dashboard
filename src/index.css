@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* دة علشان اخلي الصفحة تحس بتغير المود */
 @variant dark (&:where(.dark, .dark *)); 
 
 

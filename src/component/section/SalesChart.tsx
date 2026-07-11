@@ -1,15 +1,11 @@
-// 1. استيراد مكونات الرسم البياني الصحيحة من recharts
 import { PieChart as RechartsPieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
-// 2. استيراد الأيقونة من lucide-react مع تغيير اسمها لتجنب أي تضارب
 import { PieChart as PieIcon } from "lucide-react";
-// 3. استيراد البيانات من ملفها المشترك
 import { SalesChartData } from "../../shared/SalesChartData";
 
 function SalesChart() {
     return (
         <div className="bg-white dark:bg-slate-900 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 dark:border-slate-700/50">
 
-            {/* رأس الكارد مع الأيقونة والعناوين */}
             <div className="flex items-center gap-x-2 mb-6">
                 <div className="text-blue-500 dark:text-blue-400">
                     <PieIcon className="w-5 h-5" />
@@ -20,7 +16,6 @@ function SalesChart() {
                 </div>
             </div>
 
-            {/* حاوية الرسم البياني - تم إعطاء الـ ResponsiveContainer ارتفاع رقمي ثابت لحل مشكلة الأبعاد نهائياً */}
             <div className="w-full">
                 <ResponsiveContainer width="100%" height={200}>
                     <RechartsPieChart>
@@ -51,7 +46,6 @@ function SalesChart() {
                 </ResponsiveContainer>
             </div>
 
-            {/* العناصر التوضيحية التحتية (Legend) لعرض الأسماء والقيم المتناسقة */}
             <div className="space-y-3 mt-4">
                 {SalesChartData.map((item, index) => (
                     <div key={index} className="flex items-center justify-between">

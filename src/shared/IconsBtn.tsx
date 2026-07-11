@@ -1,6 +1,5 @@
 import type React from "react";
 
-// هعمل زرار اعيد استخدامة وعرفتة ان الزرار دة من النوع بوتون ممكن اضيف اي خواص منة
 interface iconBtnProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{
     children: React.ReactNode;
     className?: string;

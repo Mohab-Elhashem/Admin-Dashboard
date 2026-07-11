@@ -4,7 +4,6 @@ import {
     Calendar, FileText, Settings
 } from "lucide-react";
 
-// 1. بنعرف الـ Type الخاص بعناصر القائمة الفرعية أولاً
 interface SubMenuItemProps {
     id: string;
     label: string;
@@ -17,7 +16,6 @@ interface MenuItemProps {
     active?: boolean;
     badge?: string;
     count?: string;
-    // 2. بنحدد إنها مصفوفة من الـ SubMenuItemProps اللي عملناها فوق
     submenu?: SubMenuItemProps[];
 }
 
